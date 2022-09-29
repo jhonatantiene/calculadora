@@ -1,0 +1,36 @@
+<div class="teste">
+    <div class="calc">
+        <span class="titulo">Calculadora</span>
+        <div class="operation">
+            <hr>
+            <input type="text" [(ngModel)]="equacao" ngDefaultControl>
+            <input type="text" [(ngModel)]="resultado" ngDefaultControl>
+
+            <hr>
+        </div>
+
+        <div class="buttoms">
+            <button id="acao" class="operadores"><span>CE</span></button>
+            <button id="acao" class="operadores"><span>DEL</span></button>
+            <button id="operadores" class="operadores"><span>/</span></button>
+            <button id="operadores" class="operadores"><span>*</span></button>
+            <button id="botao" class="numeros"><span>1</span></button>
+            <button id="botao" class="numeros"><span>2</span></button>
+            <button id="botao" class="numeros"><span>3</span></button>
+            <button id="operadores" class="operadores"><span>+</span></button>
+            <button id="botao" class="numeros"><span>4</span></button>
+            <button id="botao" class="numeros"><span>5</span></button>
+            <button id="botao" class="numeros"><span>6</span></button>
+            <button id="operadores" class="operadores"><span>-</span></button>
+            <button id="botao" class="numeros"><span>7</span></button>
+            <button id="botao" class="numeros"><span>8</span></button>
+            <button id="botao" class="numeros"><span>9</span></button>
+            <button id="acao" class="operadores"><span>.</span></button>
+            <button id="botao" class="numeros"><span>0</span></button>
+            <button class="soma" (click)="soma()"><span>=</span></button>
+        </div>
+
+    </div>
+
+</div>
+

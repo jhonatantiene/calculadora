@@ -1,0 +1,120 @@
+div.teste {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(94, 94, 94, 0.918);
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    color: rgba(0, 0, 0, 0.541);
+}
+
+.calc {
+    border-radius: 20px;
+    margin-top: 50px;
+    width: 350px;
+    height: 500px;
+    border: 5px solid rgb(43, 42, 42);
+    background-color: rgb(201, 201, 201);
+    font-family: helvetica;
+    font-size: x-large;
+    padding: 5px;
+    flex-direction: column;
+
+
+}
+
+.operation {
+    text-align: right;
+}
+
+.calculo1 {
+    color: rgb(105, 104, 104);
+    font-size: medium;
+    padding: 2px;
+    overflow-wrap: break-word;
+    min-height: 1.6em;
+
+
+}
+
+.calculo2 {
+    color: rgb(39, 38, 38);
+    font-size: xx-large;
+    padding: 2px;
+    overflow-wrap: break-word;
+    min-height: 1.6em;
+    font-weight: 700;
+}
+
+.buttoms {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 5px;
+    gap: 3px;
+    justify-content: center;
+}
+
+.numeros {
+    background-color: rgba(104, 104, 104);
+    height: 65px;
+    border: 2px solid;
+    border-color: rgb(104, 104, 104);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.numeros span {
+    display: flex;
+    margin-top: 20%;
+    justify-content: center;
+}
+
+.soma span {
+    display: flex;
+    margin-top: 10%;
+    justify-content: center;
+}
+
+.operadores span {
+    display: flex;
+    justify-content: center;
+    margin-top:20px ;
+    margin-bottom: 20px;
+}
+
+.numeros:hover {
+    background-color: rgb(120, 120, 120);
+}
+
+.operadores {
+    background-color: rgb(85, 84, 84);
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.operadores:hover {
+    background-color: rgb(97, 97, 97);
+}
+
+.soma {
+    border-radius: 5px;
+    grid-column: span 2;
+    height: 100%;
+    background-color: rgb(85, 84, 84);
+    border: none;
+    cursor: pointer;
+}
+
+.soma:hover {
+    background-color: rgb(97, 97, 97);
+}
